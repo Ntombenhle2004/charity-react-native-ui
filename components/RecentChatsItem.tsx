@@ -1,5 +1,5 @@
 import { Image, StyleSheet, Text, View, } from "react-native";
-import Icon from "react-native-vector-icons/FontAwesome"; // or MaterialIcons, Ionicons, etc.
+import Icon from "react-native-vector-icons/FontAwesome"; 
 
 interface Props {
   name: string;
@@ -25,7 +25,7 @@ export default function RecentChatItem({
       <View
         style={[
           styles.avatarContainer,
-          { backgroundColor: avatarBackgroundColor || "#ccc" }, // now safe
+          { backgroundColor: avatarBackgroundColor || "#ccc" },
         ]}
       >
         <Image source={image} style={styles.avatar} />

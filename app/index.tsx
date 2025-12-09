@@ -5,11 +5,13 @@ import GroupChatCard from "../components/GroupChatsCard";
 
 export default function Index() {
   return (
-    <ScrollView style={styles.container}>
+    // <ScrollView style={styles.container}>
+    <View style={styles.container}>
       <TopChatsCard />
       <RecentChatsCard />
       <GroupChatCard />
-    </ScrollView>
+    </View>
+    // </ScrollView>
   );
 }
 
