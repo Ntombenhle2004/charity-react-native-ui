@@ -1,52 +1,104 @@
 <img src="https://socialify.git.ci/Ntombenhle2004/charity-react-native-ui/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="charity-react-native-ui" width="640" height="320" />
 
-# React Native UI Challenge 👋
+# Charity Mobile Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Project Description
+The **Charity Mobile Application** is a React Native mobile application built using **Expo** and **Expo Router**.  
+The application provides a platform where users can interact with charity-related features through a mobile interface.
 
-## Get started
+The project uses modern **React Native libraries**, **Expo tools**, and **TypeScript** to create a scalable and maintainable application.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+# Technologies Used
 
-2. Start the app
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- React Navigation
+- Vector Icons
+- ESLint
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+# Project Setup
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 1. Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/Ntombenhle2004/charity-react-native-ui.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 2. Navigate to the Project Folder
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+cd charity
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 3. Install Dependencies
 
-Join our community of developers creating universal apps.
+```bash
+npm install
+```
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Running the Application
+
+## Start the Expo Development Server
+
+```bash
+npm start
+```
+
+This will start the Expo development server.
+
+
+# Main Dependencies
+
+- expo
+- react
+- react-native
+- expo-router
+- react-navigation
+- react-native-vector-icons
+- expo-haptics
+- expo-image
+- expo-splash-screen
+
+---
+
+# Development Dependencies
+
+- TypeScript
+- ESLint
+- eslint-config-expo
+- @types/react
+
+---
+
+# Project Structure (Example)
+
+```
+charity
+│
+├── app
+│   ├── screens
+│   ├── components
+│   └── navigation
+│
+├── assets
+│
+├── scripts
+│
+├── package.json
+│
+└── README.md
+```
+
+---
+
